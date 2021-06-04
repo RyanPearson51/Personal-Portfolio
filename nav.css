@@ -10,7 +10,7 @@ nav {
     margin-right: 5px;
     height: 100px;
     position: relative;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
 nav div.my-name {
@@ -29,7 +29,7 @@ nav div.my-name {
     
   }
 
-nav ul{
+  nav ul{
     list-style-type: none;
     padding: 0;
     list-style: none;
@@ -50,15 +50,15 @@ nav ul a:hover{
 
 @media(max-width: 890px){
     nav{
-        padding-right: 70px;
+        padding-right: 25px;
     }
 
     nav ul{
-        width: 300px;
+        width: 400px;
     }
 }
 
-@media(max-width: 600px){
+@media(max-width: 675px){
     nav{
         display: flex;
         flex-direction: column;
@@ -66,11 +66,11 @@ nav ul a:hover{
     }
     nav div.my-name{
         position: relative;
-        margin-bottom: 40px;
-        left: 2.2%
+        margin-bottom: 20px;
+        left: 2.2%;
     }
+}
 
-    nav ul{
-        
-    }
+@media(max-width: 515px){
+    
 }
