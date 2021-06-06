@@ -43,6 +43,15 @@
     background-color: #d5f3fe;
     padding: 20px;
     margin: 50px;
+    margin-top: 65px;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes shadow{
+    from{box-shadow: none;}
+    to{box-shadow: 15px 15px skyblue, -15px -15px skyblue;}
   }
   
   .col-label {

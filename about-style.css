@@ -1,8 +1,15 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: #d5f3fe;
     height: 600px;
+    animation-name:divider;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes divider{
+      from{background-color: skyblue;}
+      to{background-color: #d5f3fe;}
   }
   
   .flex-container > div {
