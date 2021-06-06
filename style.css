@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    height: 75px;
+    margin-top:50px;
+    color: navy
+}
+
+#profile-pic {
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 1% auto;
+    grid-column: 2/3;
+  }
+  
+  h2{
+      text-align: center;
+      height:50px;
+      color: navy;
+  }
+
+  .landing-title{
+    margin-top:25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    
+  }
+
+  .to-about{
+     
+  }
+
+  
