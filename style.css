@@ -1,9 +1,15 @@
-h1{
+.to-about{
     text-align: center;
     height: 75px;
     margin-top:50px;
-    color: navy
+    animation-name:title;
+    animation-duration: 4s;
 }
+@keyframes title{
+    from{color: skyblue;}
+    to{color: black;}
+}
+
 
 #profile-pic {
     width: 300px;
@@ -16,7 +22,8 @@ h1{
   h2{
       text-align: center;
       height:50px;
-      color: navy;
+      animation-name: title;
+      animation-duration: 4s;
   }
 
   .landing-title{

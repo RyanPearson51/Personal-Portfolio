@@ -1,13 +1,18 @@
 .title{
-    margin-top: 75px;
-    text-align:center;
+    margin-top: 50px;
+    text-align:center;animation-name:title;
+    animation-duration: 4s;
 }
+@keyframes title{
+    from{color: skyblue;}
+    to{color: black;}
+}
+
 .container{
     display: flex;
     
     flex: 2;
-    margin-right: 75px;
-    margin-left: 75px;    
+       
 }
 
 .galpic:{
