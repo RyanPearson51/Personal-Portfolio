@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +8,6 @@ html {
     font-size: 82.5%;
     font-family: sans-serif;
 }
-
-
 
 a {
     text-decoration: none;
@@ -26,7 +23,6 @@ a {
     align-items: center;
     padding: 1rem 1.5rem;
     background-color: skyblue;
-    
 }
 
 .hamburger {
@@ -43,7 +39,6 @@ a {
     background-color: #101010;
 }
 
-
 .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -59,12 +54,9 @@ a {
     color: black;
 }
 
-
 .nav-item a:hover{
     color:white;
 }
-
-
 
 .nav-logo {
     font-size: 30px;
@@ -111,6 +103,4 @@ a {
     .hamburger.active .line:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
-    
 }
