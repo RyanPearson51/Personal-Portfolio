@@ -1,15 +1,22 @@
+body{
+    background-color: #ECECEC;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
+    height: 100%;
     animation-name:divider;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom: 25px;
   }
 
   @keyframes divider{
-      from{background-color: skyblue;}
-      to{background-color: #d5f3fe;}
+      from{background-color: #d5f3fe;}
+      to{background-color: skyblue;}
   }
   
   .flex-container > div {
@@ -21,7 +28,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    
+    background-color: white;
     font-size: 20px;
   }
 

@@ -1,3 +1,22 @@
+body{
+    background-color: #ECECEC;
+}
+
+.main-container{
+    background-color: white;
+    margin:50px;
+    height:110%;
+    padding-bottom:25px;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shadow{
+    from{box-shadow: none;}
+    to{box-shadow: 15px 15px skyblue, -15px -15px skyblue;}
+  }
+
 .to-about{
     text-align: center;
     height: 75px;
