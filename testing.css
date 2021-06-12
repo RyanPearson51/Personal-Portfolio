@@ -1,0 +1,122 @@
+body{
+    background-color: #ECECEC;
+    margin-top:10px;
+}
+
+.title{
+    margin-top: 50px;
+    text-align:center;
+    animation-name:title;
+    animation-duration: 4s;
+    margin-bottom: 10px;
+}
+@keyframes title{
+    from{color: skyblue;}
+    to{color: black;}
+}
+
+.container{
+    display: flex;
+    flex: 2;
+       
+}
+
+.calcpic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    display: block;
+    width:100%;
+    height:auto;
+}
+
+.ticpic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+
+.hairpic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+
+.evenpic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+
+.responsivepic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+
+.todopic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+@keyframes imgborder{
+    from{box-shadow: none;}
+    to{box-shadow: 10px 10px skyblue, -10px -10px skyblue;}
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .s1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+@media(max-width: 775px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .galpic{
+        height:300px;
+    }
+}

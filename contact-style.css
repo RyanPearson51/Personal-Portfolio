@@ -25,6 +25,14 @@
 
   h3, h5{
       text-align: center;
+      animation-name:subtitlecolor;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes subtitlecolor{
+    from{color:#d5f3fe}
+    to{color:black}
   }
   
   input[type=submit] {
