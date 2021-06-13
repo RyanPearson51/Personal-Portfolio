@@ -4,24 +4,80 @@
     <meta charset="utf-8">
     <title>Portfolio Landing Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./contact-style.css">
-    <link rel = "stylesheet" href = "./nav.css">
+    <link rel="stylesheet" href="./nav.css">
   </head>
   <body>
-    <header>
-        
-        <nav>
-        <div class = "my-name">Ryan Pearson</div>
-        <ul class = "">
-            <li><a href = "./index.html">Home</a></li>
-            <li><a href = "./portfolio.html">Portfolio</a></li>
-            <li><a href = "./resume.html">Resume</a></li>
-            <li><a href = "./about.html">About</a></li>
-            <li><a href = "./contact.html">Contact</a></li>
-        </ul>
-        </nav>
-      </header>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <header class="header">
+      <nav class="navbar">
+          <a href="#" class="nav-logo">Ryan Pearson</a>
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="./index.html">Home</a></li>
+            <li class="nav-item"><a href="./portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a href="./resume.html">Resume</a></li>
+            <li class="nav-item"><a href="./about.html">About</a></li>
+            <li class="nav-item"><a href="./contact.html">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+          </div>
+      </nav>
+  </header>
+  
+  <div class="container-1">
+    <h3 class="form-title">Leave a message:</h3>
+    <form action="/action_page.php">
+        <div class="row">
+          <div class="col-label">
+            <label for="fname">Full Name</label>
+          </div>
+          <div class="col-input">
+            <input type="text" id="fname" name="fullname" placeholder="Your full name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-label">
+            <label for="Email">Email Address</label>
+          </div>
+          <div class="col-input">
+            <input type="text" id="Email" name="emailaddress" placeholder="Your valid email address">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-label">
+            <label for="contact-reason">How can I help you?</label>
+          </div>
+          <div class="col-input">
+            <select id="country" name="country">
+              <option value=""></option>  
+              <option value="hire">Looking to hire</option>
+              <option value="question">Question on previous work</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-label">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-input">
+            <textarea id="subject" name="subject" placeholder="Expand here:" style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+
+  </form>
+  </div>
+  <h3>Personal Contact Info:</h3><br>
+  <h5>Email: ryanpearson015@gmail.com</h5>
+  <h5>Phone: 512-923-3227</h5>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./nav.js"></script>
   </body>
 </html>

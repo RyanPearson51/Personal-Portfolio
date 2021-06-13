@@ -1,0 +1,109 @@
+body{
+    background-color: #ECECEC;
+    margin-top:10px;
+}
+
+.title{
+    margin-top: 50px;
+    text-align:center;
+    animation-name:title;
+    animation-duration: 4s;
+    margin-bottom: 50px;
+}
+@keyframes title{
+    from{color: skyblue;}
+    to{color: black;}
+}
+
+.container{
+    display: flex;
+    flex: 2;
+       
+}
+
+.calcpic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+
+.ticpic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+
+.hairpic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+
+.evenpic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+
+.responsivepic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+
+.todopic{
+    animation-name:imgborder;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    margin: 30px;
+    border:2px solid #d5f3fe;
+    height: 250px;
+}
+@keyframes imgborder{
+    from{box-shadow: none;}
+    to{box-shadow: 10px 10px skyblue, -10px -10px skyblue;}
+}
+
+p{
+    margin-left:37%;
+    margin-right:37%;
+    text-align: center;
+    color:black;
+    animation-name:subtitlecolor;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+    background-color: #d5f3fe;
+}
+
+@keyframes subtitlecolor{
+    from{color:#d5f3fe}
+    to{color:black}
+}
+
+
+
+
+@media(max-width: 775px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .galpic{
+        height:300px;
+    }
+}
